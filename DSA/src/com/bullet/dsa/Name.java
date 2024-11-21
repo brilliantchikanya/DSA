@@ -13,6 +13,15 @@ public class Name {
 
     public Name(String firstName) {
         this.firstName = firstName;
+        secondName = "";
+        lastName = "";
+    }
+
+    public Name(String firstName, String lastName) {
+        this(firstName);
+        secondName = "";
+        this.lastName = lastName;
+
     }
 
     public Name(String firstName, String secondName, String lastName) {
