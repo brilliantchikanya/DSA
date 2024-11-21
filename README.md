@@ -1,1 +1,2 @@
-this is a repo for all things data structures and algorithms
+This is a repository which i use to keep track of my learnings
+on **Data Structures and Algorithms**
