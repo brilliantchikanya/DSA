@@ -4,6 +4,12 @@ import java.io.*;
 
 import static com.bullet.dsa.MyUtils.*;
 
+/**
+ * @author brilliant
+ * @author com.bullet
+ * @since 21-11-2024
+ * */
+
 public class Main {
     public static void main(String[] args) throws IOException {
         String input = readLines().readLine();
