@@ -21,7 +21,7 @@ public class Person {
     }
 
     public Person() {
-        name = null;
+        name = new Name();
         gender = null;
         dateOfBirth = null;
 
@@ -32,7 +32,9 @@ public class Person {
     *  the toString, and the hashCode as well*/
     @Override
     public boolean equals(Object comparisonObject) {
-        if (this == comparisonObject) return true;
+        if (this == comparisonObject) return true;  /* The == operator when used with reference
+                                                    objects compares whether the two objects refer to
+                                                    the same object, ie they refer to the same address*/
         if (comparisonObject == null || getClass() != comparisonObject.getClass()) return false;
         Person person = (Person) comparisonObject;
         return Objects.equals(name, person.name) && gender == person.gender;

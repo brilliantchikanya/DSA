@@ -23,7 +23,7 @@ public class ObjectClass {
     }
     public Class myClass() {
         return object.getClass();   /* the getClass method returns a runtime representation
-                                    of the class of an object. It returns a class object*/
+                                    of the class of an object. It returns a Class object*/
     }
 
     public static void main(String[] args) {

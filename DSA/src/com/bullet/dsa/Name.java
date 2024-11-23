@@ -14,6 +14,11 @@ public class Name {
     String lastName;
 
     // constructors
+    public Name() {
+        firstName = "";
+        secondName = "";
+        lastName = "";
+    }
     public Name(String firstName) {
         this.firstName = firstName;
         secondName = "";
